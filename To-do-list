@@ -1,0 +1,13 @@
+# Get the number of tasks to be done
+To_do_list_number = int(input('How many tasks should you do today? : '))
+
+# Initialize an empty list to store the tasks
+task_list = []
+
+# Collect each task
+for i in range(To_do_list_number):
+    task_step = input('Task ' + str(i+1) + ': ')
+    task_list.append(task_step)
+
+# Print the list of tasks
+print(task_list)
